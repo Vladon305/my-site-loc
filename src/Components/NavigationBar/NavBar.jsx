@@ -1,16 +1,17 @@
 import React from "react";
 import s from "./NavBar.module.css";
-import NavBarLogo from "./img/NavBarLogo.png";
+import NavBarLogo from "./navBarImg/NavBarLogo.png";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className={s.container}>
-      <a className={s.a} href="/HomePage">
+      <NavLink to="/HomePage" ClassName={s.a}>
         <img className={s.logostyles} src={NavBarLogo} alt="Logo of NavBar" />
-      </a>
-      <a href="/Course" className={s.a}>
+      </NavLink>
+      <NavLink to="/Course" className={s.a}>
         Course
-      </a>
+      </NavLink>
     </div>
   );
 };
