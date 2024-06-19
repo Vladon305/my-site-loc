@@ -1,9 +1,9 @@
 import React from "react";
-import s from "./CoursePage.module.css";
+import htmlIMG from "./htmlImg/htmlMG.jpg";
+import s from "./htmlPage.module.css";
 import { NavLink } from "react-router-dom";
-import htmlIMG from "./CoursePageIMG/htmlMG.jpg";
 
-const CoursePage = () => {
+const HtmlPage = () => {
   return (
     <div className={s.container}>
       <div className={s.card}>
@@ -16,8 +16,8 @@ const CoursePage = () => {
           with.
         </p>
         <button className={s.btnCard}>
-          <NavLink to="/CourseCompBlock" className={s.triggerOption}>
-            Course List
+          <NavLink to="/htmlPage" className={s.triggerOption}>
+            Corse Link
           </NavLink>
         </button>
       </div>
@@ -25,4 +25,4 @@ const CoursePage = () => {
   );
 };
 
-export default CoursePage;
+export default HtmlPage;
