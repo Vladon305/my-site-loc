@@ -1,11 +1,11 @@
 import React from "react";
-import s from "./cssPage.module.css";
+import s from "./jsPage.module.css";
 
-const CssPage = () => {
+const JsPage = () => {
   return (
     <div className={s.container}>
       <div className={s.card}>
-        <img className={s.imgCard} alt="htmlIMG" id="html1" />
+        <img className={s.imgCard} alt="htmlIMG" />
 
         <p className={s.pCard}>
           By clicking on the button below, a list of the
@@ -68,4 +68,4 @@ const CssPage = () => {
   );
 };
 
-export default CssPage;
+export default JsPage;

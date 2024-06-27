@@ -8,13 +8,14 @@
 
   /* margin-top: 100px; */
 }
+
 .card {
   display: grid;
 
   text-align: center;
   align-items: center;
 
-  grid-template-columns: 359px 300px 115px;
+  grid-template-columns: 359px 300px 40px 115px;
   grid-template-rows: 205px;
   gap: 20px;
 
@@ -93,6 +94,21 @@
   transition: transform 0.3s ease-in-out, box-shadow 1.5s ease-in-out,
     background-color 0.3s ease-in-out, text-shadow 1.5s ease-in-out;
 }
+.btnHeart {
+  font-size: 25px;
+
+  color: rgba(255, 255, 255, 0.76);
+
+  justify-self: center;
+  margin-top: 140px;
+  transition: transform 0.3s ease-in-out, box-shadow 1.5s ease-in-out,
+    background-color 0.3s ease-in-out, text-shadow 1.5s ease-in-out;
+}
+
+.btnHeart:hover {
+  transform: scale(1.2);
+}
+
 .btnCard:hover {
   transform: scale(1.1);
   background-color: aqua;

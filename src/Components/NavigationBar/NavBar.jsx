@@ -10,7 +10,7 @@ const NavBar = () => {
         <img className={s.logostyles} src={NavBarLogo} alt="Logo of NavBar" />
       </NavLink>
       <NavLink to="/Course" className={s.a}>
-        Course
+        Course and other
       </NavLink>
     </div>
   );

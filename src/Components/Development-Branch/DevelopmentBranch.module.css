@@ -1,0 +1,9 @@
+.firstStroke {
+  display: grid;
+  grid-template-columns: 425px 142px 425px 142px 425px;
+  grid-template-rows: 131px;
+
+  place-items: center;
+
+  margin-top: 27px;
+}

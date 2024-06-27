@@ -1,23 +1,30 @@
 .container {
   display: grid;
 
-  place-content: center;
-  grid-template-columns: min-content min-content min-content;
+  grid-template-columns: min-content min-content;
+  grid-template-rows: min-content min-content min-content;
+  gap: 30px;
+  justify-content: center;
 
-  margin-top: 120px;
+  /* margin-top: 100px; */
 }
 .card {
   display: grid;
 
   text-align: center;
+  align-items: center;
 
-  grid-template-columns: 359.55px;
-  grid-template-rows: 200px 60px 75px 50px;
+  grid-template-columns: 359px 300px 115px;
+  grid-template-rows: 205px;
   gap: 20px;
+
   border: 3px solid rgba(245, 245, 245, 0.582);
   border-radius: 1rem;
-  padding: 10px;
-  background-color: rgb(70, 70, 70);
+
+  padding: 12px;
+
+  background-color: rgb(218, 214, 0);
+
   box-shadow: 0px 0px 15px black;
 
   transition: transform 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
@@ -49,7 +56,7 @@
 }
 
 .pCard {
-  color: grey;
+  color: rgb(255, 255, 255);
 
   font-size: larger;
 
@@ -81,7 +88,8 @@
   border-radius: 0.7rem;
   width: 110px;
   height: 40px;
-  justify-self: flex-end;
+  justify-self: first baseline;
+  margin-top: 140px;
   transition: transform 0.3s ease-in-out, box-shadow 1.5s ease-in-out,
     background-color 0.3s ease-in-out, text-shadow 1.5s ease-in-out;
 }
@@ -91,7 +99,7 @@
 }
 
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   box-shadow: 0px 0px 30px black;
 
   .imgCard {

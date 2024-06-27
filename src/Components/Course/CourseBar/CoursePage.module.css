@@ -5,6 +5,8 @@
   grid-template-columns: min-content min-content min-content;
 
   margin-top: 120px;
+
+  gap: 50px;
 }
 .card {
   display: grid;
